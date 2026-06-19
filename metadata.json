@@ -1,0 +1,6 @@
+{
+  "name": "The Wallflower Kitchen",
+  "description": "Elegant rooftop restaurant & cafe in Kota, Rajasthan, featuring online table reservations, signature multi-cuisine menu, and custom dining experiences.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
