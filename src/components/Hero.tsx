@@ -1,14 +1,13 @@
 import { motion } from "motion/react";
 import { ArrowDown, CalendarRange, UtensilsCrossed, Star } from "lucide-react";
 import { CONTACT_INFO } from "../data";
+import heroImage from "../assets/images/hero_rooftop_dining_1781840537087.jpg";
 
 interface HeroProps {
   onScrollTo: (elementId: string) => void;
 }
 
 export default function Hero({ onScrollTo }: HeroProps) {
-  const heroImage = "/src/assets/images/hero_rooftop_dining_1781840537087.jpg";
-
   return (
     <section
       id="home"

@@ -1,5 +1,11 @@
 import { MenuItem, Review, GalleryItem } from "./types";
 
+import paneerTikkaImage from "./assets/images/paneer_tikka_platter_1781840550994.jpg";
+import pastaAlfredoImage from "./assets/images/pasta_alfredo_1781840577187.jpg";
+import kadaiPaneerImage from "./assets/images/kadai_paneer_dish_1781841124770.jpg";
+import cocktailBeverageImage from "./assets/images/cocktail_beverage_1781840563227.jpg";
+import heroRooftopDiningImage from "./assets/images/hero_rooftop_dining_1781840537087.jpg";
+
 export const MENU_ITEMS: MenuItem[] = [
   {
     id: "m1",
@@ -7,7 +13,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: "Flame-grilled cottage cheese cubes marinated in rich Indian spices, yoghurt, and saffron, served with fresh mint chutney.",
     price: 380,
     category: "signatures",
-    image: "/src/assets/images/paneer_tikka_platter_1781840550994.jpg",
+    image: paneerTikkaImage,
     isVegetarian: true,
     tag: "Chef's Special"
   },
@@ -17,7 +23,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: "Delectable pasta tossed in a luxurious, creamy parmesan white sauce with garlic, mushrooms, and elegant fresh herbs.",
     price: 340,
     category: "signatures",
-    image: "/src/assets/images/pasta_alfredo_1781840577187.jpg",
+    image: pastaAlfredoImage,
     isVegetarian: true,
     tag: "Best Seller"
   },
@@ -47,7 +53,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: "Tender cottage cheese cubes tossed with bell peppers, succulent onions, and homemade ground signature spices in a traditional iron wok.",
     price: 390,
     category: "signatures",
-    image: "/src/assets/images/kadai_paneer_dish_1781841124770.jpg",
+    image: kadaiPaneerImage,
     isVegetarian: true,
     tag: "Chef's Choice"
   },
@@ -57,7 +63,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: "An elegant infusion of visual fresh mint, rosemary herb extract, zero-alcohol blood orange essence, and bubbly club soda.",
     price: 180,
     category: "beverages",
-    image: "/src/assets/images/cocktail_beverage_1781840563227.jpg",
+    image: cocktailBeverageImage,
     isVegetarian: true,
     tag: "Refreshing"
   },
@@ -126,13 +132,13 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     id: "g1",
     title: "Premium Rooftop Seating",
     category: "seating",
-    image: "/src/assets/images/hero_rooftop_dining_1781840537087.jpg"
+    image: heroRooftopDiningImage
   },
   {
     id: "g2",
     title: "Artisanal Food Presentation",
     category: "food",
-    image: "/src/assets/images/paneer_tikka_platter_1781840550994.jpg"
+    image: paneerTikkaImage
   },
   {
     id: "g3",
